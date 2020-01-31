@@ -1,0 +1,1 @@
+cmd_/home/zack/Pi_Files/piio/piio.ko := /home/zack/tools/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/zack/Pi_Files/piio/piio.ko /home/zack/Pi_Files/piio/piio.o /home/zack/Pi_Files/piio/piio.mod.o ;  true
